@@ -18,7 +18,8 @@ title: P4P2's Blog # the main title
 
 tagline: A Hacker Blog # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
+description:  Tutorials on ethical hacking, CTF writeups, cybersecurity tips, and technical deep dives by P4P2.
+
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
@@ -225,3 +226,5 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+webmaster_verifications:
+  google: l_voi9qStt18Exqf2zFA9XPPaaYHrW
