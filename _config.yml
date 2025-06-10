@@ -42,17 +42,11 @@ social:
     - https://twitter.com/Subhajit__09 # change to your Twitter homepage
     - https://github.com/P4P2 # change to your GitHub homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
+  
 # Site Verification Settings
 webmaster_verifications:
   google: l_voi9qStt18Exqf2zFA9XPPaaYHrW # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
