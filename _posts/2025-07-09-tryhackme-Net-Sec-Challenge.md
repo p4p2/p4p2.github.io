@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe - Net Sec Challenge Walkthrough"
-date: 2025-06-08 12:00:00 +0530
+date: 2025-06-09 12:00:00 +0530
 categories: [TryHackMe, CTF]
 tags: [tryhackme, ctf, walkthrough, Net-Sec-Challenge, hacking,nmap,telnet,linux,ssh,hydra]
 toc: true
