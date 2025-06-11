@@ -128,8 +128,7 @@ I used the first example (a), though used bash instead.
 
 {% include answer-box.html ans="W3ll d0n3. You made it!" %}
 
-
-🏁 Conclusion
+## Conclusion: 🏁 Conclusion
 
 This CTF challenge highlighted the importance of imformation gather vulnerablity research and exploit the vulnerablity. After that all thing privileged exclation find vulnerablity on the os get root access. By leveraging resources like GTFOBins, we demonstrated how commonly available tools can be misused to gain unauthorized access when misconfigured.
 
