@@ -25,7 +25,7 @@ draft: false    # change to true while still writing
 ### 🔍 Architecture Overview
 
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram
     participant Attacker
     participant crAPI_Frontend
@@ -44,7 +44,8 @@ sequenceDiagram
     crAPI_Backend->>Database: SELECT * FROM users WHERE id=1002
     Database-->>crAPI_Backend: Return user2 data
     crAPI_Backend-->>Attacker: 200 OK (user2 profile)
-</div>
+```
+
 
 ## Step-by-Step Guide: Exploiting IDOR in OWASP crAPI
 
