@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Lab 1 — Insecure Direct Object Reference (IDOR) in OWASP crAPI"
 description: "Step-by-step walkthrough of exploiting an IDOR vulnerability in OWASP crAPI, complete with Burp Suite traffic, Docker tips, and Mermaid diagrams."
 date: 2025-06-13T12:00:00+05:30   # original publish time
@@ -54,4 +54,4 @@ Register a new user (user1@example.com) and log in.
 
 and if you are new in this web or first time add your vichle number and pin code which you got in your MailHog
 
-![cr-api Image](/assets/van.png) -->
+![cr-api Image](/assets/van.png)
