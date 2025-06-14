@@ -14,28 +14,29 @@ toc: true
 
 ### 🔍 Architecture Overview
 
-### 🔍 Architecture Overview
 
+{% raw %}
 <div class="mermaid">
 sequenceDiagram
-    participant Attacker
-    participant crAPI_Frontend
-    participant crAPI_Backend
-    participant Database
+    participant A as Attacker
+    participant F as crAPI_Frontend
+    participant B as crAPI_Backend
+    participant D as Database
 
-    Attacker->>crAPI_Frontend: Login as user1
-    crAPI_Frontend->>crAPI_Backend: GET /users/1001/profile
-    crAPI_Backend->>Database: SELECT * FROM users WHERE id=1001
-    Database-->>crAPI_Backend: Return user1 data
-    crAPI_Backend-->>crAPI_Frontend: 200 OK (user1 profile)
+    A->>F: Login as user1
+    F->>B: GET /users/1001/profile
+    B->>D: SELECT * FROM users WHERE id=1001
+    D-->>B: Return user1 data
+    B-->>F: 200 OK (user1 profile)
 
-    Note over Attacker: Attacker modifies the ID
+    Note over A: Attacker modifies the ID
 
-    Attacker->>crAPI_Backend: GET /users/1002/profile
-    crAPI_Backend->>Database: SELECT * FROM users WHERE id=1002
-    Database-->>crAPI_Backend: Return user2 data
-    crAPI_Backend-->>Attacker: 200 OK (user2 profile)
+    A->>B: GET /users/1002/profile
+    B->>D: SELECT * FROM users WHERE id=1002
+    D-->>B: Return user2 data
+    B-->>A: 200 OK (user2 profile)
 </div>
+{% endraw %}
 
 
 
