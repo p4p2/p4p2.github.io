@@ -1,9 +1,9 @@
 ---
-title: "Lab 1 — Insecure Direct Object Reference (IDOR) in OWASP crAPI -@p4p2"
+title: "Lab 1 — Insecure Direct Object Reference (IDOR) in OWASP crAPI - p4p2"
 description: "Step-by-step walkthrough of exploiting an IDOR vulnerability in OWASP crAPI, complete with Burp Suite traffic, Docker tips, and Mermaid diagrams."
-date: 2025-06-14T12:00:00+05:30   # original publish time
-lastmod: 2025-06-14T12:00:00+05:30 # update this whenever you revise
-slug: "lab1-idor-owasp-crapi"       # SEO-friendly URL segment
+date: 2025-06-14T12:00:00+05:30   
+lastmod: 2025-06-14T12:00:00+05:30 
+# slug: "lab1-idor-owasp-crapi"       
 categories:
   - crAPI
   - Labs
@@ -17,9 +17,9 @@ tags:
   - Docker
   - Linux
   - Vulnerable-API
-toc: true       # auto-generate table of contents
-mermaid: true   # enable Mermaid rendering plugin/shortcode
-draft: false    # change to true while still writing
+toc: true       
+mermaid: true  
+draft: false    
 ---
 
 ### 🔍 Architecture Overview
@@ -197,7 +197,7 @@ Now that we have another user's vehicleId, let’s copy it and go back to our pr
 
 Replace your own vehicleId in the URL with the new one, and resend the request.
 
-// ![cr-api Image](/assets/idor-location.png)
+![cr-api Image](/assets/idor-location.png)
 
 
 And there it is—we’ve successfully accessed another user’s vehicle location!
