@@ -1,7 +1,8 @@
 ---
 title: "Lab 1 — Insecure Direct Object Reference (IDOR) in OWASP crAPI - p4p2"
 description: "Step-by-step walkthrough of exploiting an IDOR vulnerability in OWASP crAPI, complete with Burp Suite traffic, Docker tips, and Mermaid diagrams."
-date: 2025-06-14 10:00:00 +0530
+date: 2025-06-14 10:00:00 +0000
+
 categories: 
   - crAPI
   - Labs
@@ -13,8 +14,9 @@ toc: true
 
 ### 🔍 Architecture Overview
 
+### 🔍 Architecture Overview
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
     participant Attacker
     participant crAPI_Frontend
@@ -33,7 +35,9 @@ sequenceDiagram
     crAPI_Backend->>Database: SELECT * FROM users WHERE id=1002
     Database-->>crAPI_Backend: Return user2 data
     crAPI_Backend-->>Attacker: 200 OK (user2 profile)
-```
+</div>
+
+
 
 ### 🛠️ What Is IDOR?
 
