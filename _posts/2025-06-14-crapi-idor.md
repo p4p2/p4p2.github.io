@@ -1,21 +1,13 @@
 ---
 title: "Lab 1 — Insecure Direct Object Reference (IDOR) in OWASP crAPI - p4p2"
 description: "Step-by-step walkthrough of exploiting an IDOR vulnerability in OWASP crAPI, complete with Burp Suite traffic, Docker tips, and Mermaid diagrams."
-date: 2025-06-14T12:00:00+05:30   
-
-categories:
+date: 2025-06-14 10:00:00 +0530
+categories: 
   - crAPI
   - Labs
   - API Security
-tags:
-  - OWASP
-  - crAPI
-  - IDOR
-  - API-Security
-  - Burp Suite
-  - Docker
-  - Linux
-  - Vulnerable-API
+tags: [owasp, crapi, api-security, hacking, docker, linux, vulnerable-api, pentest-lab]
+toc: true
   
 ---
 
