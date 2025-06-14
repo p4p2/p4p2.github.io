@@ -197,7 +197,7 @@ Now that we have another user's vehicleId, let’s copy it and go back to our pr
 
 Replace your own vehicleId in the URL with the new one, and resend the request.
 
-![cr-api Image](/assets/idor-location.png)
+// ![cr-api Image](/assets/idor-location.png)
 
 
 And there it is—we’ve successfully accessed another user’s vehicle location!
