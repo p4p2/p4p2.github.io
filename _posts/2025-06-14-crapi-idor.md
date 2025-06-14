@@ -12,34 +12,6 @@ toc: true
   
 ---
 
-### 🔍 Architecture Overview
-
-
-{% raw %}
-<div class="mermaid">
-sequenceDiagram
-    participant A as Attacker
-    participant F as crAPI_Frontend
-    participant B as crAPI_Backend
-    participant D as Database
-
-    A->>F: Login as user1
-    F->>B: GET /users/1001/profile
-    B->>D: SELECT * FROM users WHERE id=1001
-    D-->>B: Return user1 data
-    B-->>F: 200 OK (user1 profile)
-
-    Note over A: Attacker modifies the ID
-
-    A->>B: GET /users/1002/profile
-    B->>D: SELECT * FROM users WHERE id=1002
-    D-->>B: Return user2 data
-    B-->>A: 200 OK (user2 profile)
-</div>
-{% endraw %}
-
-
-
 ### 🛠️ What Is IDOR?
 
 Insecure Direct Object References (IDOR) are a type of access control vulnerability that occurs when user-supplied input is used to access objects (like files, user profiles, or records) directly without proper authorization checks.
