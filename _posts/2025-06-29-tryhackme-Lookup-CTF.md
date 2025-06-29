@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe - Lookup Challenge Walkthrough"
-date: 2025-06-27 12:00:00 +0530
+date: 2025-06-29 
 categories: [TryHackMe, CTF]
 tags: [tryhackme, ctf, walkthrough, Lookup, hacking,nmap,telnet,linux,ssh,hydra]
 toc: true
